@@ -44,7 +44,8 @@ def menu():
     men = 0
     while men != 3:
         print("")
-        print("   MENÚ   ")
+        print("  ----  MENÚ  -----  ")
+        print("")
         print("1. Un objeto")
         print("2. Dos objetos en uno")
         print("3. Salir")
@@ -69,6 +70,9 @@ def menu():
             print("")
             print(" -----  Opcion no valida  -----")
             print(" ----- Intente Nuevamente -----")
+            print("")
+            print("-- Presione una tecla para continuar")
+            msvcrt.getch()
 
 
 if __name__ == "__main__":
