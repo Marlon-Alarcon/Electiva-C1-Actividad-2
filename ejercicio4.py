@@ -7,8 +7,11 @@ def Forma1():
         "apellido" : "Alarcon",
         "edad" : "22"
     }
-
+    print("")
+    print("Sin Interpolacion")
     print(persona["nombre"]+" " + persona["apellido"]+" "+persona["edad"])
+    print("Con Interpolacion")
+    print (f"{persona['nombre']} {persona['apellidos']}")
 
 def menu():
     men = 0
