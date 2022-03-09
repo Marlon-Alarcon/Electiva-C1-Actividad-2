@@ -1,4 +1,5 @@
 from api.library import *
+import msvcrt
 
 def Forma1():
 
@@ -11,7 +12,11 @@ def Forma1():
     print("Sin Interpolacion")
     print(persona["nombre"]+" " + persona["apellido"]+" "+persona["edad"])
     print("Con Interpolacion")
-    print (f"{persona['nombre']} {persona['apellidos']}")
+    print("")
+    print(f"{persona['nombre']} {persona['apellido']} {persona['edad']}")
+    print("")
+    print("---> Presione una tecla para continuar")
+    
 
 def menu():
     men = 0
@@ -26,10 +31,12 @@ def menu():
 
         if men == 1:
             Forma1()
+            msvcrt.getch()
         
         elif men == 2:
             print("")
             print("hola opcion 2")
+            msvcrt.getch()
 
         elif men == 3:
             print("")
