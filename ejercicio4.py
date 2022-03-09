@@ -9,11 +9,32 @@ def Forma1():
         "edad" : "22"
     }
     print("")
-    print("Sin Interpolacion")
+    print(" Sin Interpolacion")
     print(persona["nombre"]+" " + persona["apellido"]+" "+persona["edad"])
-    print("Con Interpolacion")
+    print(" Con Interpolacion")
     print("")
     print(f"{persona['nombre']} {persona['apellido']} {persona['edad']}")
+    print("")
+    print("---> Presione una tecla para continuar")
+
+def Forma2():
+    persona = {
+        "datos_personales":{
+        "nombre": "Marlon",
+        "apellidos": "Alarcon",
+        "edad": 22
+        },
+
+        "salarial": {
+            "salario": 2000000,
+            "sub-transporte": 50000,
+            "sub-alimentacion": 60000
+        }
+    }
+    print(persona["salarial"])
+    #print (f"Salario: {persona ['salarial']['salario']}")
+    print(f"Nombre: {persona ['datos_personales']['nombre']} {persona ['datos_personales']['apellidos']}")
+    print(f"Edad: {persona['datos_personales']['edad']}")
     print("")
     print("---> Presione una tecla para continuar")
     
@@ -23,8 +44,8 @@ def menu():
     while men != 3:
         print("")
         print("   MENÚ   ")
-        print("1. Forma 1")
-        print("2. Forma 2")
+        print("1. Un objeto")
+        print("2. Dos objetos en uno")
         print("3. Salir")
         print("")
         men = int(input("Ingrese una opcion por favor "))
@@ -35,7 +56,7 @@ def menu():
         
         elif men == 2:
             print("")
-            print("hola opcion 2")
+            Forma2()
             msvcrt.getch()
 
         elif men == 3:
