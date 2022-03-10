@@ -43,6 +43,12 @@ def  listas():
 
      ListaConElementos[1] = ListaConElementos[1] + 200000
 
+     print("")
+     print(ListaConElementos[5][3])
+
+     print("")
+     print(ListaConElementos[-1][3])
+
 def main():
     listas()
 
