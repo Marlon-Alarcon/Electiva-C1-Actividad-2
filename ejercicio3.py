@@ -16,7 +16,7 @@ def  listas():
 
      ListaConElementos = [30, 2000000, "Andres Castellon", "Personal de tienda", True, ["Bachiller", "Pregrado", "Tecnico", 20]]
 
-     print(ListaConElementos)
+     print(ListaConElementos[1])
 
 
 def main():
