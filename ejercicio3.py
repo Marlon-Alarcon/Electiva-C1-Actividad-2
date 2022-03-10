@@ -38,6 +38,15 @@ def  listas():
          #j = j + 1
          j+= 1
 
+     print("")
+     print("")
+     print(ListaConElementos[5][3])
+     
+     print("")
+     print("")
+     print(ListaConElementos[-1][3])
+
+
 
 
 def main():
