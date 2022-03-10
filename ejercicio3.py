@@ -63,6 +63,10 @@ def  listas():
      ListaConElementos.append(["Sede Riohacha", "Miguel Soto"]) #Agrega elemento al final de la lista
      print(ListaConElementos)
 
+     print("")
+     ListaConElementos.insert(2, ["Sede Riohacha", "Miguel Soto"]) #Agrega elemento en la posición x
+     print(ListaConElementos)
+
 
 def main():
     listas()
