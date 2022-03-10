@@ -10,3 +10,14 @@
 
 """
 
+def  listas():
+     lista1 = []
+     lista2 = list()
+
+
+def main():
+    listas()
+
+
+if __name__=="__main__":
+    main() 
