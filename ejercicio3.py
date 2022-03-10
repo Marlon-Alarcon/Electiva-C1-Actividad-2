@@ -41,6 +41,8 @@ def  listas():
          #j = j + 1
          j+= 1
 
+     ListaConElementos[1] = ListaConElementos[1] + 200000
+
 def main():
     listas()
 
