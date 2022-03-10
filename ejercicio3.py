@@ -49,6 +49,9 @@ def  listas():
      print("")
      print(ListaConElementos[-1][3])
 
+     print("")
+     print(ListaConElementos[0:3])
+
 def main():
     listas()
 
