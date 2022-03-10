@@ -71,6 +71,11 @@ def  listas():
      del ListaConElementos[2] #Remover elementos en la posición x
      print(ListaConElementos)
 
+     print("")
+     ListaConElementos.remove("Personal de tienda") #Remueve elementos de acuerdo al contenido
+     print(ListaConElementos)
+
+
 
 def main():
     listas()
