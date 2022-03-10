@@ -18,3 +18,7 @@ def main():
         sueldopagar = sueldopagar + BONO
 
     print(f"mi nombre es: {nombre} y mi sueldo es {sueldopagar:.0f}")
+
+
+if __name__ == "__main__":
+    main()
