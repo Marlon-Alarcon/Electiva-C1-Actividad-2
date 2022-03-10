@@ -10,6 +10,9 @@
 
 """
 
+from tkinter import N
+
+
 def  listas():
      lista1 = []
      lista2 = list()
@@ -45,6 +48,12 @@ def  listas():
      print("")
      print("")
      print(ListaConElementos[-1][3])
+
+     print("")
+     print("")
+     print(ListaConElementos[0:3])
+
+
 
 
 
