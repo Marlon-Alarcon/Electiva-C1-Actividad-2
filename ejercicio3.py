@@ -58,6 +58,11 @@ def  listas():
      print("")
      print(ListaConElementos[0:6:2]) #Elementos impares
 
+     print("")
+    
+     ListaConElementos.append(["Sede Riohacha", "Miguel Soto"]) #Agrega elemento al final de la lista
+     print(ListaConElementos)
+
 
 def main():
     listas()
