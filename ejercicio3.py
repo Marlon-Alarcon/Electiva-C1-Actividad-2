@@ -59,6 +59,24 @@ def  listas():
      print("")
      print(ListaConElementos[0:6:2])
 
+     print("")
+    
+     #ListaConElementos.append(["Sede Riohacha", "Miguel Soto"]) Agrega elemento al final de la lista
+     #print(ListaConElementos)
+
+     ListaConElementos.insert(2, ["Sede Riohacha", "Miguel Soto"]) #Agrega elemento en la posición x
+     print(ListaConElementos)
+     print("")   
+     del ListaConElementos[2] #Remover elementos en la posición x
+     print(ListaConElementos)
+     print("")
+     ListaConElementos.remove("Personal de tienda") #Remueve elementos de acuerdo al contenido
+     print(ListaConElementos)
+
+
+
+
+
 
 
 
