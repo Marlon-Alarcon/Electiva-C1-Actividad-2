@@ -41,17 +41,23 @@ def  listas():
          #j = j + 1
          j+= 1
 
-     print("")
+
+     ListaConElementos[1] = ListaConElementos[1] + 200000
+   
      print("")
      print(ListaConElementos[5][3])
      
      print("")
-     print("")
      print(ListaConElementos[-1][3])
-
-     print("")
+    
      print("")
      print(ListaConElementos[0:3])
+    
+     print("")
+     print(ListaConElementos[1:6:2])
+
+     print("")
+     print(ListaConElementos[0:6:2])
 
 
 
