@@ -21,6 +21,13 @@ def  listas():
      print("")
      print(ListaConElementos)
 
+      # Utilizando ciclo for
+     print("")
+     print("Mostrando elementos con ciclo for :)")
+
+     for i in range(len(ListaConElementos)):
+         print(ListaConElementos[i])
+
 
 def main():
     listas()
