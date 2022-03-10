@@ -54,10 +54,10 @@ def  listas():
      print(ListaConElementos[0:3])
     
      print("")
-     print(ListaConElementos[1:6:2])
+     print(ListaConElementos[1:6:2]) #Elementos pares
 
      print("")
-     print(ListaConElementos[0:6:2])
+     print(ListaConElementos[0:6:2]) #Elementos impares
 
      print("")
     
