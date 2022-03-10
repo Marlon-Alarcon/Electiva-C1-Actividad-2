@@ -10,8 +10,6 @@
 
 """
 
-from tkinter import N
-
 
 def  listas():
      lista1 = []
