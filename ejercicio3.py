@@ -67,6 +67,10 @@ def  listas():
      ListaConElementos.insert(2, ["Sede Riohacha", "Miguel Soto"]) #Agrega elemento en la posición x
      print(ListaConElementos)
 
+     print("")   
+     del ListaConElementos[2] #Remover elementos en la posición x
+     print(ListaConElementos)
+
 
 def main():
     listas()
