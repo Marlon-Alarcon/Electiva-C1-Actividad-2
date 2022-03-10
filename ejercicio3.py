@@ -1,6 +1,6 @@
 # Andres Castellon
 
-print("Hola mundo")
+
 
 # ***********************************
 #           Manejo de listas
