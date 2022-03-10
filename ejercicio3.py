@@ -28,6 +28,18 @@ def  listas():
      for i in range(len(ListaConElementos)):
          print(ListaConElementos[i])
 
+      # Utilizando ciclo while
+
+     print("")
+     print("")
+     print("")
+     print("Mostrando elementos con ciclo while :)")
+
+     j=0
+     while j < len(ListaConElementos):
+         print(ListaConElementos[j])
+         #j = j + 1
+         j+= 1
 
 def main():
     listas()
