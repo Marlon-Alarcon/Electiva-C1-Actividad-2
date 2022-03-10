@@ -12,4 +12,9 @@ def main():
     diastrabajados = int(input("Digite los dias trabajados: "))
     sueldopagar = calcularsueldo(salario, diastrabajados)
 
-    
+    if salario < (SALARIO_MIN * 2):
+        sueldopagar = sueldopagar + SUB_ALIM + SUB_TRANS
+    else:
+        sueldopagar = sueldopagar + BONO
+
+    print(f"mi nombre es: {nombre} y mi sueldo es {sueldopagar:.0f}")
